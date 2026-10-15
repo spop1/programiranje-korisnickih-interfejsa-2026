@@ -1,29 +1,40 @@
 <script setup lang="ts">
-import { QuestionService } from '@/assets/services/question.service';
+import { PlantService } from '@/assets/services/plant.service';
+import { formatPrice } from '@/assets/utils';
+import type { PlantModel } from '@/models/plant,model';
 import { ref } from 'vue';
 
 
 
-const question = ref<any[]>()
+const plants = ref<PlantModel[]>()
 
-QuestionService.getAll()
-.then(rsp=>question.value = rsp)
+PlantService.getPlants()
+  .then(data => plants.value = data)
 </script>
 
 <template>
-  
-<ul>
-  <li v-for="q in question" :class="q.questionId % 2 === 0 ? 'yellow' : 'blue'"
-  >{{ q.questionId }} - {{ q.text }}</li>
-</ul>
-<pre>{{ question }}</pre>
+  <div class="container mt-5">
+    <!-- <div class="d-flex justify-content-end mb-4">
+      <button @click="" class="btn btn-outline-success">
+        Sort by Price
+      </button>
+    </div> -->
+    <div class="row">
+      <div class="col-12 col-md-3" v-for="p in plants" :key="p.id">
+        <div class="card text-center">
+          <img :src="p.image" class="card-img-top" :alt="p.name">
+          <div class="card-body">
+            <h5 class="card-title">{{ p.name }}</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">{{ formatPrice(p.price) }} EUR</h6>
+            <h6 class="card-subtitle mb-2 text-body-secondary">{{ p.category }} </h6>
+            <!-- <p class="card-text"></p> -->
+            <RouterLink :to="`/details${p.id}`" class="btn btn-primary">
+              Details
+            </RouterLink>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <pre>{{ plants }}</pre>
 </template>
-
-<style>
-.yellow{
-  color: yellow;
-}
-.blue{
-  color:blue;
-}
-</style>

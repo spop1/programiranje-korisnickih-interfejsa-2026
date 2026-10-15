@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Peace Lily",
+    "category": "indoor",
+    "price": 12,
+    "description": "An elegant indoor plant known for purifying the air. Requires low to medium indirect light.",
+    "image": "/images/peace-lily.jpg"
+  },
+{
+    "id": 2,
+    "name": "Sansevieria",
+    "category": "indoor",
+    "price": 15,
+    "description": "An extremely resilient and elegant plant. A great choice for beginners as it requires very little water.",
+    "image": "/images/sansevieria.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Hydrangea",
+    "category": "outdoor",
+    "price": 18,
+    "description": "A gorgeous outdoor shrub with large, round flower clusters. Prefers partial shade and regular watering.",
+    "image": "/images/hydrangea.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Red Rose Bouquet",
+    "category": "bouquet",
+    "price": 35,
+    "description": "A classic bouquet of 11 fresh red roses, the perfect gift for special occasions.",
+    "image": "/images/red-roses.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Monstera",
+    "category": "indoor",
+    "price": 25,
+    "description": "A tropical beauty with distinctive split leaves. Brings a jungle vibe to any space.",
+    "image": "/images/monstera.jpg"
+  }
+]
