@@ -3,40 +3,90 @@
     "id": 1,
     "name": "Peace Lily",
     "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2026-05-10",
     "price": 12,
-    "description": "An elegant indoor plant known for purifying the air. Requires low to medium indirect light.",
-    "image": "/images/peace-lily.jpg"
+    "description": "An elegant indoor plant known for purifying the air. Care & Planting: Plant in well-draining soil. Requires low to medium indirect light and keep the soil lightly moist.",
+    "image": "/images/peace-lily.jpg",
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 5,
+        "comment": "Beautiful plant, arrived in great condition.",
+        "date": "2026-06-12"
+      }
+    ]
   },
-{
+  {
     "id": 2,
     "name": "Sansevieria",
     "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2026-01-15",
     "price": 15,
-    "description": "An extremely resilient and elegant plant. A great choice for beginners as it requires very little water.",
-    "image": "/images/sansevieria.jpg"
+    "description": "An extremely resilient and elegant plant. Care & Planting: Plant in cactus/succulent mix. A great choice for beginners as it requires very little water. Allow soil to dry completely between waterings.",
+    "image": "/images/sansevieria.jpg",
+    "reviews": [
+      {
+        "username": "Bob",
+        "rating": 4,
+        "comment": "Very hardy, survives my forgetfulness.",
+        "date": "2026-08-20"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Hydrangea",
     "category": "outdoor",
+    "targetGroup": "Gardeners",
+    "productionDate": "2026-03-20",
     "price": 18,
-    "description": "A gorgeous outdoor shrub with large, round flower clusters. Prefers partial shade and regular watering.",
-    "image": "/images/hydrangea.jpg"
+    "description": "A gorgeous outdoor shrub with large, round flower clusters. Care & Planting: Plant in rich, porous soil. Prefers partial shade and regular, deep watering, especially during dry spells.",
+    "image": "/images/hydrangea.jpg",
+    "reviews": [
+      {
+        "username": "Clara",
+        "rating": 5,
+        "comment": "Bloomed beautifully in my garden this summer!",
+        "date": "2026-04-18"
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Red Rose Bouquet",
     "category": "bouquet",
+    "targetGroup": "Gift Buyers",
+    "productionDate": "2026-10-12",
     "price": 35,
-    "description": "A classic bouquet of 11 fresh red roses, the perfect gift for special occasions.",
-    "image": "/images/red-roses.jpg"
+    "description": "A classic bouquet of 11 fresh red roses, the perfect gift for special occasions. Care: Trim stems at a 45-degree angle and change the vase water every two days to maintain freshness.",
+    "image": "/images/red-roses.jpg",
+    "reviews": [
+      {
+        "username": "Dave",
+        "rating": 5,
+        "comment": "My wife loved them, very fragrant.",
+        "date": "2026-10-15"
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Monstera",
     "category": "indoor",
+    "targetGroup": "Plant Enthusiasts",
+    "productionDate": "2025-11-05",
     "price": 25,
-    "description": "A tropical beauty with distinctive split leaves. Brings a jungle vibe to any space.",
-    "image": "/images/monstera.jpg"
+    "description": "A tropical beauty with distinctive split leaves. Brings a jungle vibe to any space. Care & Planting: Plant in peat-based potting soil with a moss pole for support. Needs bright indirect light and weekly watering.",
+    "image": "/images/monstera.jpg",
+    "reviews": [
+      {
+        "username": "Emma",
+        "rating": 4,
+        "comment": "Growing so fast! A new leaf already popped up.",
+        "date": "2026-09-01"
+      }
+    ]
   }
 ]

@@ -13,12 +13,12 @@ PlantService.getPlants()
 </script>
 
 <template>
-  <div class="container mt-5">
-    <!-- <div class="d-flex justify-content-end mb-4">
-      <button @click="" class="btn btn-outline-success">
-        Sort by Price
-      </button>
-    </div> -->
+<div class="card mb-3">
+  <div class="row">
+    
+  </div>
+</div>
+<div class="container mt-5">
     <div class="row">
       <div class="col-12 col-md-3" v-for="p in plants" :key="p.id">
         <div class="card text-center">
@@ -28,7 +28,7 @@ PlantService.getPlants()
             <h6 class="card-subtitle mb-2 text-body-secondary">{{ formatPrice(p.price) }} EUR</h6>
             <h6 class="card-subtitle mb-2 text-body-secondary">{{ p.category }} </h6>
             <!-- <p class="card-text"></p> -->
-            <RouterLink :to="`/details${p.id}`" class="btn btn-primary">
+            <RouterLink :to="`/details/${p.id}`" class="btn btn-success">
               Details
             </RouterLink>
           </div>
