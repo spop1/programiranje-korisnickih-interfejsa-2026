@@ -1,4 +1,4 @@
-import type { PlantModel } from "@/models/plant,model"
+import type { PlantModel } from "@/models/plant.model"
 import axios from "axios"
 
 const client = axios.create({

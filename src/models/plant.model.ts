@@ -12,6 +12,7 @@ export interface PlantModel {
     targetGroup: string
     productionDate: string
     price: number
+    oldPrice?: number
     description: string
     image: string
     reviews: ReviewModel[]

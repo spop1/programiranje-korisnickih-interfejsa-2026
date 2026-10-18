@@ -6,6 +6,7 @@
     "targetGroup": "Beginners",
     "productionDate": "2026-05-10",
     "price": 12,
+    "oldPrice": 15,
     "description": "An elegant indoor plant known for purifying the air. Care & Planting: Plant in well-draining soil. Requires low to medium indirect light and keep the soil lightly moist.",
     "image": "/images/peace-lily.jpg",
     "reviews": [
@@ -42,6 +43,7 @@
     "targetGroup": "Gardeners",
     "productionDate": "2026-03-20",
     "price": 18,
+    "oldPrice": 24,
     "description": "A gorgeous outdoor shrub with large, round flower clusters. Care & Planting: Plant in rich, porous soil. Prefers partial shade and regular, deep watering, especially during dry spells.",
     "image": "/images/hydrangea.jpg",
     "reviews": [
@@ -78,6 +80,7 @@
     "targetGroup": "Plant Enthusiasts",
     "productionDate": "2025-11-05",
     "price": 25,
+    "oldPrice": 30,
     "description": "A tropical beauty with distinctive split leaves. Brings a jungle vibe to any space. Care & Planting: Plant in peat-based potting soil with a moss pole for support. Needs bright indirect light and weekly watering.",
     "image": "/images/monstera.jpg",
     "reviews": [
@@ -86,6 +89,209 @@
         "rating": 4,
         "comment": "Growing so fast! A new leaf already popped up.",
         "date": "2026-09-01"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Epiphyllum oxypetalum",
+    "category": "indoor",
+    "targetGroup": "Plant Enthusiasts",
+    "productionDate": "2025-08-14",
+    "price": 28,
+    "description": "Also known as the Queen of the Night, a rare cactus that blooms magnificent white flowers only at night. Care & Planting: Plant in an airy, well-draining cactus mix. Prefers bright, indirect sunlight and higher humidity. Water when the top inch of soil is dry.",
+    "image": "/images/epiphyllum-oxypetalum.jpg",
+    "reviews": [
+      {
+        "username": "Marko",
+        "rating": 5,
+        "comment": "Watching it bloom at night is a magical experience!",
+        "date": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fiddle Leaf Fig",
+    "category": "indoor",
+    "targetGroup": "Interior Decorators",
+    "productionDate": "2025-04-22",
+    "price": 45,
+    "oldPrice": 55,
+    "description": "A stunning statement plant with large, veined, violin-shaped leaves. Care & Planting: Needs well-draining soil and a pot with drainage holes. Thrives in bright, indirect sunlight. Water thoroughly but allow the top soil to dry out between waterings.",
+    "image": "/images/fiddle-leaf-fig.jpg",
+    "reviews": [
+      {
+        "username": "Sarah",
+        "rating": 4,
+        "comment": "Looks amazing in my living room, though a bit dramatic with watering.",
+        "date": "2026-07-11"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "English Lavender",
+    "category": "outdoor",
+    "targetGroup": "Gardeners",
+    "productionDate": "2026-03-10",
+    "price": 14,
+    "description": "A fragrant, herbaceous perennial known for its beautiful purple spikes. Care & Planting: Plant in alkaline, sandy, well-draining soil. Requires full sun for at least 6 hours a day. Drought tolerant once established.",
+    "image": "/images/english-lavender.jpg",
+    "reviews": [
+      {
+        "username": "Liam",
+        "rating": 5,
+        "comment": "Smells incredible and attracts so many bees!",
+        "date": "2026-06-22"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sunflower Bouquet",
+    "category": "bouquet",
+    "targetGroup": "Gift Buyers",
+    "productionDate": "2026-08-01",
+    "price": 22,
+    "oldPrice": 28,
+    "description": "A bright and cheerful arrangement of 7 large sunflowers. Care: Cut the stems at an angle under running water. Keep out of direct sunlight to make the blooms last longer, and change water daily.",
+    "image": "/images/sunflower-bouquet.jpg",
+    "reviews": [
+      {
+        "username": "Nina",
+        "rating": 5,
+        "comment": "Brought so much sunshine to my kitchen table.",
+        "date": "2026-08-05"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Golden Pothos",
+    "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2026-02-18",
+    "price": 10,
+    "description": "An incredibly hardy trailing vine with heart-shaped, variegated leaves. Care & Planting: Plant in standard potting mix. Survives in low light but thrives in medium indirect light. Water when the top half of the soil feels dry.",
+    "image": "/images/golden-pothos.jpg",
+    "reviews": [
+      {
+        "username": "Tom",
+        "rating": 5,
+        "comment": "Practically unkillable and grows super fast.",
+        "date": "2026-05-30"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Aloe Vera",
+    "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2025-12-10",
+    "price": 16,
+    "description": "A popular medicinal succulent with thick, fleshy green leaves. Care & Planting: Plant in succulent or cactus mix. Needs bright, indirect sunlight. Water deeply but infrequently, ensuring the soil is totally dry first.",
+    "image": "/images/aloe-vera.jpg",
+    "reviews": [
+      {
+        "username": "Elena",
+        "rating": 4,
+        "comment": "Great plant, and very handy for minor kitchen burns.",
+        "date": "2026-03-14"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Phalaenopsis Orchid",
+    "category": "indoor",
+    "targetGroup": "Gift Buyers",
+    "productionDate": "2026-07-05",
+    "price": 32,
+    "oldPrice": 38,
+    "description": "An elegant, long-blooming orchid with vibrant, moth-shaped flowers. Care & Planting: Plant in a bark-based orchid potting mix. Thrives in bright, indirect light. Water weakly but weekly, avoiding standing water.",
+    "image": "/images/phalaenopsis-orchid.jpg",
+    "reviews": [
+      {
+        "username": "Sophia",
+        "rating": 5,
+        "comment": "The blooms lasted for nearly three months!",
+        "date": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "ZZ Plant",
+    "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2025-10-25",
+    "price": 20,
+    "description": "Features dark green, glossy leaves and is famous for surviving extreme neglect. Care & Planting: Regular potting soil is fine. Tolerates very low light. Needs watering only once every few weeks.",
+    "image": "/images/zz-plant.jpg",
+    "reviews": [
+      {
+        "username": "Jovan",
+        "rating": 5,
+        "comment": "Perfect for my windowless office.",
+        "date": "2026-01-12"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Spider Plant",
+    "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2026-04-02",
+    "price": 12,
+    "oldPrice": 15,
+    "description": "A popular hanging plant known for producing trailing 'spiderettes'. Care & Planting: Use an all-purpose potting mix. Enjoys bright to moderate indirect sunlight. Keep soil slightly moist but not soggy.",
+    "image": "/images/spider-plant.jpg",
+    "reviews": [
+      {
+        "username": "Mia",
+        "rating": 4,
+        "comment": "Already making babies! Looks great in a macrame hanger.",
+        "date": "2026-07-28"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Spring Tulip Bouquet",
+    "category": "bouquet",
+    "targetGroup": "Gift Buyers",
+    "productionDate": "2026-03-15",
+    "price": 26,
+    "description": "A vibrant mix of 15 colorful spring tulips. Care: Trim stems underwater to prevent air bubbles. Keep in a cool room away from direct sunlight and top up with fresh, cold water daily.",
+    "image": "/images/tulip-bouquet.jpg",
+    "reviews": [
+      {
+        "username": "Katarina",
+        "rating": 5,
+        "comment": "So fresh and colorful, brightened up the whole room.",
+        "date": "2026-03-18"
+      }
+    ]
+  }, 
+  {
+    "id": 16,
+    "name": "Jade Plant",
+    "category": "indoor",
+    "targetGroup": "Beginners",
+    "productionDate": "2025-11-15",
+    "price": 18,
+    "description": "A popular succulent houseplant with thick, oval-shaped leaves, often considered a symbol of good luck. Care & Planting: Best in a heavy, well-draining pot with cactus mix. Loves bright light. Let the soil dry completely before watering.",
+    "image": "/images/jade-plant.jpg",
+    "reviews": [
+      {
+        "username": "David",
+        "rating": 5,
+        "comment": "Very low maintenance and looks like a tiny tree.",
+        "date": "2026-04-09"
       }
     ]
   }
