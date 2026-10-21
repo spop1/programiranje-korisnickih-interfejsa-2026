@@ -1,26 +1,51 @@
 <script lang="ts" setup>
+import { useLogin } from '@/hooks/login.hook';
+import { UserService } from '@/services/user.service';
 import { ref } from 'vue';
+import {  useRoute, useRouter } from 'vue-router';
 
 const email = ref<string>('')
 const password = ref<string>('')
+const router = useRouter()
+const route = useRoute()
+const id = Number(route.params.id)
 
+function login() {
+    if (UserService.login(email.value, password.value)) {
+        const to = sessionStorage.getItem('to')
+        sessionStorage.removeItem('to')
+        router.push(to ?? '/user')
+        return
+    }
+
+    alert('Bad username or password')
+}
 </script>
 
 <template>
-    <div class="card auth-card">
-        <div class="card-header fw-bold">Login</div>
-        <div class="card-body">
-            <form>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" v-model="email">
+    <div class="row auth-row">
+        <div class="col-12 col-md-6 d-none d-md-block">
+            <img src="@/assets/login1.jpg" alt="login.jpg" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-header fw-bold">Login</div>
+                <div class="card-body">
+                    <form @submit.prevent="login">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" v-model="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passworf" v-model="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="passworf" v-model="password">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
+
         </div>
     </div>
+
 </template>
